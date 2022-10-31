@@ -1,3 +1,5 @@
-# tpt.tugasAkhir
-Structured Language project
-C++ & Python
+Teknik Pemrograman Terstruktur-Tugas Akhir
+
+Structured Language project with:
+C++
+Python
