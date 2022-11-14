@@ -5,7 +5,7 @@ print("|=================================================|\n")
 # Import date time
 from datetime import datetime
 
-# men-set variable current(Day,Month,Year) dengan waktu ada di komputer/pc
+# men-set variable current(Day,Month,Year) dengan waktu yang ada di komputer/pc
 currentDay = datetime.now().day
 currentMonth = datetime.now().month
 currentYear = datetime.now().year
