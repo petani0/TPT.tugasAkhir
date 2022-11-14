@@ -53,12 +53,13 @@ def main():
         print("Total yang harus dibayar : ", total)
         bayar = int(input("Bayar         :  "))
         kembalian = bayar - total
-        print("Kembalian        : ", kembalian)
-        print("===== Terima Kasih =====")
 
-        # If-else statement jika uang yang di bayar 'pas' atau 'kurang'
+        # If-else statement jika uang yang di bayar perlu 'kembalian' , 'pas' atau 'kurang'
         if bayar == total:
             print("Uang anda pas, Terima kasih telah berbelanja")
+        elif bayar >= total:
+            print("Kembalian        : ", kembalian)
+            print("===== Terima Kasih =====")
         elif bayar < total:
             tanya = input(
                 "Maaf uang anda tidak cukup, Apakah anda ingin memesan ulang? [y/t]:"
