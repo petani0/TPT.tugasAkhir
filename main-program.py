@@ -58,6 +58,20 @@ def main():
         print("Kembalian        : ", kembalian)
         print("===== Terima Kasih =====")
 
+        # If-else statement jika uang yang di bayar 'pas' atau 'kurang'
+        if bayar == total:
+            print("Uang anda pas, Terima kasih telah berbelanja")
+        elif bayar < total:
+            tanya = input(
+                "Maaf uang anda tidak cukup, Apakah anda ingin memesan ulang? [y/t]:"
+            )
+            if tanya == "y":
+                pemilihan()
+            elif tanya == "t":
+                print("===== Terima Kasih ======")
+            else:
+                print("Pilihan yang anda masukan salah!")
+
     # Deklarasi function untuk login
     def get_login():
         print("*" * 30)
