@@ -55,26 +55,42 @@ def main():
         kembalian = bayar - total
 
         # If-else statement jika uang yang di bayar perlu 'kembalian' , 'pas' atau 'kurang'
+        # UANG PAS
         if bayar == total:
             print("Uang anda pas, Terima kasih telah berbelanja")
-        elif bayar >= total:
+
+        # KEMBALIAN
+        elif bayar > total:
             print("Kembalian        : ", kembalian)
             print("===== Terima Kasih =====")
+
+        # UANG TIDAK CUKUP
         elif bayar < total:
-            tanya = input(
-                "Maaf uang anda tidak cukup, Apakah anda ingin memesan ulang? [y/t]:"
-            )
+
+            # MENANYAKAN APAKAH INGIN MEMESAN PESAN ULANG
+            tanya = input("Maaf uang anda tidak cukup, Apakah anda ingin memesan ulang? [y/t]:")
             if tanya == "y":
                 pemilihan()
             elif tanya == "t":
                 print("===== Terima Kasih ======")
             else:
+                # MENANYAKAN UNTUK KEDUA KALI JIKA INGIN MEMESAN ULANG
                 print("Pilihan yang anda masukan salah!")
+                tanya = tanya = input("Maaf uang anda tidak cukup, Apakah anda ingin memesan ulang? [y/t]:")
+                if tanya == "y":
+                    pemilihan()
+                elif tanya == "t":
+                    print("===== Terima Kasih ======")
+                else:
+                    # JIKA PILIHAN SELAIN Y/T DIKELUARKAN LAGI, MAKA PROGRAM AKAN MEMAKSA LOGOUT
+                    print("Pilihan yang anda masukan salah!, Anda Terpaksa Logout!")
 
     # Deklarasi function untuk login
     def get_login():
         print("*" * 30)
         print("Silahkan Login!")
+
+        # input username dan password
         username = input("Masukan Username Anda: ")
         password = input("Masukan Password: ")
 
