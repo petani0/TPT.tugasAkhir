@@ -12,6 +12,7 @@ currentYear = datetime.now().year
 print(currentDay, "/", currentMonth, "/", currentYear)
 
 # Input Dictionaries
+# Key : Menu | Value : Harga
 menu = {
     "Ayam Goreng": 15000,
     "Burger King": 25000,
