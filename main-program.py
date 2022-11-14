@@ -27,11 +27,7 @@ def main():
     def pemilihan():
         print("=================== Daftar Menu ===================")
         for i in menu:
-            print(
-                i,
-                "\t  | Rp.",
-                menu[i],
-            )
+            print(i,"\t  | Rp.",menu[i],)
         print("===================================================")
         print("Pembelian diatas Rp100.000,- mendapatkan diskon 15%")
         print("===================================================")
