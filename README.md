@@ -1,6 +1,7 @@
 Teknik Pemrograman Terstruktur - Tugas Akhir
 
-Program:
+#Program
+
 C++ : 
 
 - calculator.cpp
