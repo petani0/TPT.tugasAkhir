@@ -11,9 +11,9 @@ currentMonth = datetime.now().month
 currentYear = datetime.now().year
 print(currentDay, "/", currentMonth, "/", currentYear)
 
+
 # Input Dictionaries
 # Key : Menu | Value : Harga [Key-Value Pair]
-
 # Dict menu
 menu = {
     "ayam goreng": 15000,
@@ -29,7 +29,6 @@ minuman = {
     "jus jeruk": 10000,
     "jus alpukat": 15000,
 }
-
 
 
 # Ngebungkus/wrap semua function menjadi 1, bernama main function() untuk dijadiin neested function
