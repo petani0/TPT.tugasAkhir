@@ -142,7 +142,7 @@ def main():
             print("Login Gagal. Coba Lagi..")
             get_login()
 
-    # Membuat program nge-execute function get_login() pertama kali
+    # Membuat program nge-execute function get_login() pertama kali / entry point of the program
     if __name__ == "__main__":
         get_login()
 
