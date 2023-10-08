@@ -1,12 +1,8 @@
-Teknik Pemrograman Terstruktur - Tugas Akhir
+### Teknik Pemrograman Terstruktur - Tugas Akhir (M9)
 
-#Program
+### C++ : 
+- `calculator.cpp`
 
-C++ : 
-
-- calculator.cpp
-
-
-Python : 
-- simple-Cashier-text.py
-- main-program.py (modify program from [simple-Cashier-text.py])
+### Python : 
+- `simple-Cashier-text.py`
+- `main-program.py` (modify program from `simple-Cashier-text.py`)
